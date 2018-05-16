@@ -9,18 +9,17 @@
     "start": "coffee src/main.coffee"
   },
   "dependencies": {
-    "async": "^1.5.2",
-    "databank": "^0.19.1",
-    "databank-mongodb": "^0.19.0",
-    "fuzzy.ai-microservice": "^0.10.0",
-    "lodash": "^4.5.1",
-    "moment": "^2.13.0",
-    "request": "^2.69.0",
-    "stripe": "^4.3.0"
+    "@fuzzy-ai/microservice": "^1.2.0",
+    "async": "^2.6.0",
+    "databank": "^1.0.1",
+    "databank-mongodb": "^1.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.3",
+    "request": "^2.83.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "glob": "^7.0.3",
+    "coffeescript": "^2.0.3",
+    "glob": "^7.1.2",
     "vows": "^0.8.1"
   }
 }
